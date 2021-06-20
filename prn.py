@@ -3,7 +3,8 @@ def prl412(s):
         for c in s + '\n':
                 sys.stdout.write(c)
                 sys.stdout.flush()
-                time.sleep(12. / 150)                                                                                                GL = "\033[96;1m" # Blue aqua
+                time.sleep(12. / 150)                                                                                                
+
 GL = "\033[96;1m"
 BB = "\033[34;1m" 
 YY = "\033[33;1m"  
